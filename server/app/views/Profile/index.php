@@ -131,7 +131,11 @@ if (isset($_POST['sql'])) $_SESSION['currentSqlTable'] = $_POST['sql'] ?>
     <div class="txt-out">
         <div><p> <?= $_SESSION['currentTxt'] ?></p></div>
         <textarea class="addText" disabled>
-             <?php foreach ($_SESSION['txt'] as $v) echo $v ?>
+             <?php
+             if (isset($_SESSION['txt'])){
+                 foreach ($_SESSION['txt'] as $v) echo $v ;
+             }
+             ?>
         </textarea>
 
     </div>
@@ -139,8 +143,8 @@ if (isset($_POST['sql'])) $_SESSION['currentSqlTable'] = $_POST['sql'] ?>
         <div><p> <?= $_SESSION['currentCsv'] ?></p></div>
         <div class="addText">
             <table style="width: 400px">
+               <?php if (isset($_SESSION['csv'])) : ?>
                 <?php foreach ($_SESSION['csv'] as $valueRow) : ?>
-
                     <tr>
                         <?php for ($i = 1; $i < count($valueRow); $i++): ?>
 
@@ -149,8 +153,7 @@ if (isset($_POST['sql'])) $_SESSION['currentSqlTable'] = $_POST['sql'] ?>
                         <?php endfor; ?>
                     </tr>
                 <?php endforeach; ?>
-
-
+            <?php endif; ?>
             </table>
 
         </div>
