@@ -22,8 +22,3 @@ if (isset($_SESSION['changeConfig'])){
 }
 
 
-//return [
-//        'dsn' => 'mysql:host=a_level_nix_mysql:3306;dbname=a_level_nix_mysql;charset=utf8',
-//        'user' => 'root',
-//        'pass' => 'cbece_gead-cebfa'
-//    ];

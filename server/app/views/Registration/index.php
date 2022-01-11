@@ -1,6 +1,6 @@
 <?php session_start() ?>
 
-<h1> registration </h1>
+
 
 <div class="message">
     <?= $messange ?>

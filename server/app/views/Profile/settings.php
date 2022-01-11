@@ -1,4 +1,4 @@
-<h1> Settings </h1>
+
 
 <div class="message">
     <?php if (isset($_POST['click'])) {

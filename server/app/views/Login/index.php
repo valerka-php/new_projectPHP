@@ -1,4 +1,4 @@
-<h1> LOGIN </h1>
+
 
 <div class="message">
     <?= $messange ?>

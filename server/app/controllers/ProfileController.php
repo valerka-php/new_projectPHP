@@ -71,7 +71,6 @@ class ProfileController extends AppController
 
         }
 
-
     }
 
 }
