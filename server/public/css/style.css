@@ -1,0 +1,225 @@
+
+.table{
+    display: contents;
+}
+
+.form {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border-radius: 35px;
+    border: 35px aliceblue solid;
+
+}
+
+.col-12 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+
+.message {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 350px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 45px;
+    background-color: lightgoldenrodyellow;
+    color: red;
+    font-size: 25px;
+}
+
+.wrong {
+    background-color: lightgoldenrodyellow;
+    color: darkred;
+}
+
+.sql {
+    background-color: lightblue;
+    margin-top: 9px;
+    /*border-radius: 25px;*/
+    padding: 8px;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.csv-out {
+    grid-column: 3;
+    background-color: olivedrab;
+    margin-top: 9px;
+    /*border-radius: 25px;*/
+    padding: 8px;
+}
+
+.txt-out {
+    grid-column: 2;
+    background-color: lightgrey;
+    margin-top: 9px;
+    /*border-radius: 25px;*/
+    padding: 8px;
+}
+
+.content {
+    padding: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #ab6f01;
+}
+
+.formSql {
+    margin: 25px;
+}
+
+.btn {
+    display: flex;
+    border-radius: 15px;
+    justify-content: center;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    background-color: greenyellow;
+    width: 350px;
+}
+
+.menu {
+    position: fixed; /* Фиксированное положение */
+    right: 35px; /* Расстояние от правого края окна браузера */
+    top: 25px; /* Расстояние сверху */
+    padding: 10px; /* Поля вокруг текста */
+    background: #ffe; /* Цвет фона */
+    border-radius: 25px;
+    border: 1px solid #333; /* Параметры рамки */
+    width: 350px;
+    height: 150px;
+}
+
+textarea {
+    font-size: 25px;
+    width: 880px;
+    height: 250px;
+    border-radius: 15px;
+    white-space: pre-line;
+}
+
+.btn {
+    margin-top: 0;
+    border-color: black;
+    color: black;
+    border: 3px solid black;
+}
+
+.btnsett {
+    background-color: tan;
+    border-radius: 15px;
+    border: 3px solid grey;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.settings {
+    background-color: whitesmoke;
+}
+
+.button {
+    margin-top: 8px;
+    display: flex;
+}
+
+.q {
+    width: 450px;
+}
+
+li {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.back {
+    margin-left: 15px;
+}
+
+
+.left {
+    width: 150px;
+    margin-right: 5px;
+    grid-column: 1;
+}
+
+.center {
+    width: 900px;
+    margin-right: 5px;
+    grid-column: 2;
+}
+
+.right {
+    width: 150px;
+    margin-left: auto;
+    grid-column: 3;
+}
+
+.header {
+    background-color: darkgrey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 55px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.addText {
+    max-width: 430px;
+    min-height: 255px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.addInfo {
+    padding: 5px;
+    text-align: center;
+
+}
+
+.addButton {
+    border-radius: 15px;
+    border: 3px solid yellowgreen;
+}
+
+.red{
+    color: red;
+    text-align: center;
+}
+
+.overflow{
+    overflow: auto;
+}
+
+.add{
+    text-align: center;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataButton{
+    margin-top: 7px;
+    float: right;
+    background-color: yellow;
+}
