@@ -146,7 +146,7 @@ if (isset($_POST['sql'])) $_SESSION['currentSqlTable'] = $_POST['sql'] ?>
                <?php if (isset($_SESSION['csv'])) : ?>
                 <?php foreach ($_SESSION['csv'] as $valueRow) : ?>
                     <tr>
-                        <?php for ($i = 1; $i < count($valueRow); $i++): ?>
+                        <?php for ($i = 0; $i < count($valueRow); $i++): ?>
 
                             <td style="border: 1px solid black"> <?= $valueRow[$i] ?></td>
 

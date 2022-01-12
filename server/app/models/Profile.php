@@ -36,8 +36,10 @@ class Profile extends \vendor\core\base\Model
 
         if ($type == 'csv') {
             $arrayRow = explode("#", $dataFile);
+            unset($arrayRow[0]);
             foreach ($arrayRow as $columnValue) {
                 $arrCol[] = explode(';', $columnValue);
+//                print_r($arrCol);
 
             }
             return $_SESSION["$type"] = $arrCol;

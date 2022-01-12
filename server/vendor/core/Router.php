@@ -13,7 +13,7 @@ class Router
     }
 
 
-// ищет url в таблице маршрутов routesAll
+
     private static function findRoute($queryString): bool
     {
         foreach (self::$routesAll as $pattern => $route) {
@@ -37,11 +37,6 @@ class Router
         return false;
     }
 
-    /**
-     * перенаправляет URL по керректному маршруту
-     * @param string $queryString текущий URL
-     * @return void
-     */
 
     public static function dispatch($queryString)
     {
